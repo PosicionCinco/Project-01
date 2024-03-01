@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACLC Website</title>
+
+    <!-- FONTAWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- GOOGLE FONTS (MONTSERRAT) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com">
+    <link href="http://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
+
+    <style>
+        body { background-image: url("./image/bg-texture.png"); }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><img src="./image/aclc.png" style="width: 200px; height: 65px;"></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="fa-solid fa-graduation-cap"></i></button>
+            <button id="close-menu-btn"><i class="fa-brands fa-google-scholar"></i></button>
+        </div>
+    </nav>
+    <!-- END OF NAVBAR -->
+
+    <section class="contact">
+        <div class="container contact__container">
+        <aside class="contact__aside">
+            <div class="aside__image">
+                <img src="./image/contact.svg" alt="">
+            </div>
+            <h2>Contact Us</h2>
+            <p>ACLC Malolos Office Hours:  8:00 AM - 5:00 PM<br>We appreciate your interest in ACLC Malolos and look forward to assisting you.</p>
+            <ul class="contact__details">
+                <li>
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <h5>+69 917 542 6205</h5>
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope-open-text"></i>
+                    <h5>amaclc1995@yahoo.com</h5>
+                </li>
+                <li>
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <h5>Feliza Jazz Bldg, Malolos, Philippines</h5>
+                </li>
+            </ul>
+            <ul class="contact__socials">
+                <li> <a href="https://www.facebook.com/ACLCMalolosOfficial"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li> <a href="https://www.instagram.com/aclc.malolos/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li> <a href="https://twitter.com/aclcmalolos"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li> <a href="https://www.linkedin.com/school/aclc-college/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            </ul>
+        </aside>
+
+        <form action="https://formspree.io/f/xzbnrkbq" method="POST" class="contact__form">
+            <div class="form__name">
+                <input type="text" name="First Name" placeholder="First Name" required>
+                <input type="text" name="Last Name" placeholder="Last Name" required>
+            </div>
+            <input type="email" name="Email Address" placeholder="Your Email Address" required>
+            <textarea name="Message" rows="7" placeholder="Message" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        </div>
+    </section>
+    <!-- END OF CONTACT FORM -->
+
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index.html" class="footer__logo"><img src="./image/ama.png" style="width: 190px; height: 90px;"><p>AMA EDUCATION SYSTEM</p></a>
+                <p>A member of AMA Education System! ACLC Malolos now offers full online education, earn your degree online -anywhere you are in the world.</p>
+            </div>
+
+            <div class="footer__2">
+                <h4>Site Links</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__3">
+                <h4>Links</h4>
+                <ul class="privacy">
+                    <li><a href="https://www.amaes.edu.ph/amaes-privacy-policy/">Privacy Policy</a></li>
+                    <li><a href="https://www.amaes.edu.ph/careers/">Careers</a></li>
+                    <li><a href="https://amafranchise.amaes.edu.ph/">Investors</a></li>
+                    <li><a href="https://www.youtube.com/channel/UC34PohtqOjRziDt-TiF6Pkw">AMAES T.V</a></li>
+                    <li><a href="https://news.amaes.edu.ph/">AMA News</a></li>
+                    <li><a href="https://www.amaes.edu.ph/">AMA Education System</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p><i class="fa-solid fa-phone"></i>  | +69 917 542 6205</p>
+                    <p><i class="fa-solid fa-envelope-open-text"></i> | amaclc1995@yahoo.com</p>
+                </div>
+
+                <ul class="footer__socials">
+                    <li><a href="https://www.facebook.com/ACLCMalolosOfficial"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/aclc.malolos/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/aclcmalolos"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/school/aclc-college/"><i class="fa-brands fa-linkedin-in"></i></li>
+                </ul>
+            </div>  
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; ACLC Malolos</small>
+        </div>
+    </footer>
+    <!-- END OF FOOTER -->
+
+      <script src="./main.js"></script>
+</body>
+</html>

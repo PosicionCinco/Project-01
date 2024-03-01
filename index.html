@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACLC Website</title>
+
+    <!-- FONTAWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- GOOGLE FONTS (MONTSERRAT) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com">
+    <link href="http://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- SWIPER JS -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+        body { background-image: url("./image/bg-texture.png"); }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <a href="index.html"><img src="./image/aclc.png" style="width: 200px; height: 65px;"></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="fa-solid fa-graduation-cap"></i></button>
+            <button id="close-menu-btn"><i class="fa-brands fa-google-scholar"></i></button>
+        </div>
+    </nav>
+    <!-- END OF NAVBAR -->
+
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>ACLC COLLEGE MALOLOS</h1>
+                <p>Member of AMA EDUCATION SYSTEM. AMA Education System (AMAES) is the largest network of Senior High Schools nationwide. Pioneer. First IT school in the Philippines.</p>
+                <p>The only branch consistently producing world class I.T Champions. ACLC College aims to produce highly competent graduates, especially in the field of IT and other fields that require knowledge in current technology.</p>
+                <a href="courses.html" class="btn btn-primary">Get Started</a>
+            </div>
+
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img src="./image/header.svg">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END OF HEADER -->
+
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>WHY ACLC MALOLOS?</h1>
+                <p>Here are some compelling reasons why you should consider enrolling at ACLC Malolos.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon"><i class="fa-solid fa-ban"></i></span>
+                    <h5>No Entrance Exam</h5>
+                    <p>Freshmen don't need to take an entrance exam, undergo an interview, or meet cut-off grades.</p>
+                </article>
+                
+                <article class="category">
+                    <span class="category__icon"><i class="fa-solid fa-robot"></i></span>
+                    <h5>A.I Integrate</h5>
+                    <p>AMA Education System is the first to intergrate A.I in Senior High School.</p>
+                </article>
+                
+                <article class="category">
+                    <span class="category__icon"><i class="fa-solid fa-users"></i></span>
+                    <h5>Accepting Students</h5>
+                    <p>Accepting freshmen, transferees, returning students, ALS passers, and foreign students.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class="fa-solid fa-computer"></i></span>
+                    <h5>Online Learning</h5>
+                    <p>Online Learning for College and Senior High School, and DepEd voucher accepted for SHS.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class="fa-solid fa-house-circle-check"></i></span>
+                    <h5>Learning Environment</h5>
+                    <p>Immerse yourself in an optimal learning environment, where every room is equipped with air conditioning.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category__icon"><i class="fa-solid fa-wifi"></i></span>
+                    <h5>Campus & Facilities</h5>
+                    <p>The entire campus is covered by Wi-Fi, and two laboratories, each furnished with a comprehensive set of computers.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- END OF CATEGORIES -->
+
+    <section class="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="container courses__container">
+            <article class="course">
+                <div class="course__image">
+                    <video width="350" height="350" autoplay muted loop>
+                        <source src="./image/BSCS.mp4" type="video/mp4"/>
+                    </video>
+                </div>
+                <div class="course__info">
+                <h4>BACHELOR OF SCIENCE IN COMPUTER SCIENCE</h4>
+                <p>Graduates of the BSCS program are well-equipped for careers in software development, data analysis, cybersecurity, and other cutting-edge fields, contributing to the advancement of technology and computing.</p>
+                <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <video width="350" height="350" autoplay muted loop>
+                        <source src="./image/BSAIS.mp4" type="video/mp4"/>
+                    </video>
+                </div>
+                <div class="course__info">
+                    <h4>BACHELOR OF SCIENCE IN ACCOUNTING INFORMATION SYSTEMS</h4>
+                    <p>Aimed at preparing students for the intersection of finance and technology. BSAIS covers areas such as financial accounting, auditing, and management information systems. </p>
+                    <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <video width="350" height="350" autoplay muted loop>
+                        <source src="./image/BSEN.mp4" type="video/mp4"/>
+                    </video>
+                </div>
+                <div class="course__info">
+                <h4>BACHELOR OF SCIENCE IN ENTREPRENEURSHIP</h4>
+                <p>Developing entrepreneurial capabilities, including strategic planning, market analysis, financial management, and innovation. Gain practical experience in managing their ventures, and decision-making.</p>
+                <a href="courses.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- END OF COURSES -->
+
+    <section class="faqs">
+        <h2>More Info About Us</h2>
+        <div class="container faqs__container">
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-toggle-off"></i></div>
+                <div class="question__answer">
+                    <h4>ABOUT US: ACLC COLLEGE</h4>
+                    <p class="justifier">A member of the AMA Education System (AMAES) founded by Dr. Amable R. Aguiluz V – the father of IT education in the Philippines. Established in 1986, ACLC stands for AMA Computer Learning Center, as it was originally a computer training center offering skill-based courses on computer hardware and software. To date, ACLC remain to be a popular choice for TESDA Short Courses in the Philippines.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-toggle-off"></i></div>
+                <div class="question__answer">
+                    <h4>FROM LEARNING CENTER TO COLLEGE</h4>
+                    <p class="justifier">Eventually, in response to its market’s demand for bachelor’s degree courses, the institution was raised to college status offering short courses, 2-year courses and bachelor’s degree courses.  Today, a number of ACLC campuses have been transformed into ACLC College offering senior high school to college, while some other campuses remain as ACLC offering senior high school, short courses and 2-year programs.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-toggle-off"></i></div>
+                <div class="question__answer">
+                    <h4>K TO 12 IN THE PHILIPPINES</h4>
+                    <p class="justifier">With the implementation of the K to 12 programs in the Philippines, ACLC is one of the first private institutions to support the program by offering senior high school and accepting DepEd voucher. As a member of AMAES, the unified AMA Senior High program is offered in all ACLC campuses. With AMAES being known as a pioneer in IT education, ACLC implements blended learning for senior high school, wherein students go to school only 3 days a week, as 50% of the lessons are delivered through online education and the remaining 50% is delivered through face-to-face classes.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-toggle-off"></i></div>
+                <div class="question__answer">
+                    <h4>FRANCHISE BUSINESS</h4>
+                    <p class="justifier">ACLC is also a popular choice for school franchise business, especially among people who want to earn and help build a better nation at the same time. By having a school business, one can have a real contribution to nation building by molding the future generation of workers and professionals who will help drive the economy and progress of the country.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-toggle-off"></i></div>
+                <div class="question__answer">
+                    <h4>MISSION</h4>
+                    <p class="justifier">Provide a holistic, quality and globally recognized IT-based Education in all levels and disciplines with the objective of producing professionals and leaders responsive to the needs of Science and the International Community cognizant of the welfare and benefit of its men and women thereby realizing their potential as productive members of society for the honor of God Almighty.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-toggle-off"></i></div>
+                <div class="question__answer">
+                    <h4>VISION</h4>
+                    <p class="justifier">To become the leader and dominant provider of quality and excellent information technology-based business education and related services in the global market.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-toggle-off"></i></div>
+                <div class="question__answer">
+                    <h4>ADMISSION: SHS</h4>
+                    <p>Form 138 or Grade 10 report card and copy of Grade 10 completion certificate</p>
+                    <p>Original Copy of NSO or PSA Birth Certificate</p>
+                    <p>Certificate of Good Moral Character</p>
+                    <p>2 pcs. 2×2 Formal Picture White Background</p>
+                    <p>ESC Certificate (for students from private schools with DepEd voucher)</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-toggle-off"></i></div>
+                <div class="question__answer">
+                    <h4>AMA HYMN</h4>
+                    <p>Stanza I : You put us in mold dear Alma Mater, You hold the future in this race against time, Through the years in your fold, You nurtured our dreams, Our promise to you</p>
+                    <p>Chorus : Dear Alma Mater You have given us arms, For the battles of life, And the conquest of our dreams Oh, Dear AMA, You have sharpened our minds, We will triumph by which, The toast is for you</p>
+                    <p>Stanza II : The light up ahead is victory foreseen, With noble desires we behold its gleam, Our Motherland lays her hope on the youth, The future that we hold is her hope, That unfolds</p>
+                    <p>(Repeat Chorus)</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-toggle-off"></i></div>
+                <div class="question__answer">
+                    <h4>ADMISSION: FRESHMEN</h4>
+                    <p>Form 138 or Grade 10 report card and copy of Grade 10 completion certificate</p>
+                    <p>Original Copy of NSO or PSA Birth Certificate</p>
+                    <p>Certificate of Good Moral Character</p>
+                    <p>2 pcs. 2x2 Formal Picture with White Background</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-toggle-off"></i></div>
+                <div class="question__answer">
+                    <h4>MEMBER OF AMA EDUCATION SYSTEM</h4>
+                    <p class="justifier">ACLC College is a member of the AMA Education System and is one of the leading computer schools in the country. With a curriculum that is based on the requirements of the actual industry, ACLC College aims to produce highly competent graduates, especially in the field of IT and other fields that require knowledge in today's technology</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-toggle-off"></i></div>
+                <div class="question__answer">
+                    <h4>ADMISSION: TRANSFEREE</h4>
+                    <p>Transcript of Record from Previous School</p>
+                    <p>Honorable Dismissal</p>
+                    <p>Certificate of Good Moral Character</p>
+                    <p>Original Copy of NSO or PSA Birth Certificate</p>
+                    <p>2 pcs. 2x2 Formal Picture with White Background</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><i class="fa-solid fa-toggle-off"></i></div>
+                <div class="question__answer">
+                    <h4>SCHOOL PHILOSOPHY</h4>
+                    <p class="justifier">The educational philosophy of ACLC College Valencia, Bukidnon rests on its commitment to be of service to students through the provision of an environment where there would be opportunities to relate theories and knowledge to practical training. The College focuses the students to a life and a future integrated with the real working world</p>
+                    <p class="justifier">With this theory in Education, ACLC then dedicates itself to the molding of future professionals in attaining a dream, to take an active role in the education and training of the students through continuous innovation of education program and evaluation of industry needs</p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- END OF FAQ -->
+
+    <section class="container months__container mySwiper">
+        <h2>Events</h2>
+        <div class="swiper-wrapper">
+            <article class="month swiper-slide">
+                <div class="avatar">
+                    <img src="./image/month1.jpg" alt="">
+                </div>
+                <div class="month__info">
+                    <h5>January</h5>
+                    <small>Month</small>
+                </div>
+                <div class="month__body">
+                    <p><i class="fa-regular fa-calendar-check"></i>  [03]  |Bridge Club ~ |326 Saint Mary's Hall ~ |5:00pm - 9:00pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [05]  |Health Informatics ~ |Event location goes here.. ~ |10:00am - 11:00am </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [09]  |Dissertation Defense: Will Travers ~ |Online/Virtual ~ |9:00am - 11:00am </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [23]  |2024 Doomsday Clock Town Hall ~ |Healey Student Center ~ |2:30pm - 3:30pm </p>
+                </div>
+            </article>
+
+            <article class="month swiper-slide">
+                <div class="avatar">
+                    <img src="./image/month2.jpg" alt="">
+                </div>
+                <div class="month__info">
+                    <h5>February</h5>
+                    <small>Month</small>
+                </div>
+                <div class="month__body">
+                    <p><i class="fa-regular fa-calendar-check"></i>  [01]  |UIS Educational (EdTech) ~ |Online ~ |1:00pm - 2:00pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [10]  |Responsible AI ~ |This event is entirely virtual ~ |6:00am - 7:30am </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [21]  |Disability ERG Monthly Meeting ~ |Zoom ~ |10:00am - 11:00am </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [28]  |Music Series ~ |McNeir Hall (New Building) ~ |12:30pm - 1:30pm </p>
+                </div>
+            </article>
+
+            <article class="month swiper-slide">
+                <div class="avatar">
+                    <img src="./image/month3.jpg" alt="">
+                </div>
+                <div class="month__info">
+                    <h5>March</h5>
+                    <small>Month</small>
+                </div>
+                <div class="month__body">
+                    <p><i class="fa-regular fa-calendar-check"></i>  [09]  |Undergraduate  Grades and Reports ~ |Registrar Office ~ |8:00am - 5:00pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [11]  |End Gender Apertheid ~ |Zoom/Virtual ~ |9:00am - 10:30am </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [09]  |Health Info & Data Science Session ~ |Online/Virtual ~ |8:00am - 9:00am </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [23]  |Disability ERG Monthly Meeting ~ |Zoom ~ |10:00am - 11:00am </p>
+                </div>
+            </article>
+
+            <article class="month swiper-slide">
+                <div class="avatar">
+                    <img src="./image/month4.jpg" alt="">
+                </div>
+                <div class="month__info">
+                    <h5>April</h5>
+                    <small>Month</small>
+                </div>
+                <div class="month__body">
+                    <p><i class="fa-regular fa-calendar-check"></i>  [02]  |Hora: Portugues Conversation Hour ~ |ICC 450 ~ |3:30pm - 4:30pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [11]  |War and Politics: Weekly Discussion ~ |Politics Living Room ~ |1:00pm - 2:00pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [09]  |Graduate Research Workshop ~ |ICC 662 ~ |10:30am - 12:30am </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [23]  |2024 Story: Laura Barron-Lopez ~ |Politics Living Room ~ |8:00am - 9:00am </p>
+                </div>
+            </article>
+
+            <article class="month swiper-slide">
+                <div class="avatar">
+                    <img src="./image/month5.jpg" alt="">
+                </div>
+                <div class="month__info">
+                    <h5>May</h5>
+                    <small>Month</small>
+                </div>
+                <div class="month__body">
+                    <p><i class="fa-regular fa-calendar-check"></i>  [01]  |Clinical Research Seminar ~ |Online via Zoon ~ |12:30pm - 2:00pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [14]  |Distinguished Scientist: Shroff, PhD ~ |ICC 204 ~ |4:00pm - 5:00pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [21]  |IBC45: Intensive Bioethics Course ~ |Healy Hall ~ |9:00am - 6:30pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [23]  |Drivers of Geopolitical Seminar ~ |Zoom ~ |8:00am - 9:00am </p>
+                </div>
+            </article>
+
+            <article class="month swiper-slide">
+                <div class="avatar">
+                    <img src="./image/month6.jpg" alt="">
+                </div>
+                <div class="month__info">
+                    <h5>June</h5>
+                    <small>Month</small>
+                </div>
+                <div class="month__body">
+                    <p><i class="fa-regular fa-calendar-check"></i>  [03]  |IBC45: Intensive Bioethics June 3-5 ~ |Healy Hall ~ |9:00am - 5:00pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [04]  |IBC45: Intensive Bioethics June 3-5 ~ |Healy Hall ~ |9:00am - 5:00pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [05]  |IBC45: Intensive Bioethics June 3-5 ~ |Healy Hall ~ |9:00am - 5:00pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [23]  |Undergraduate Grades and Reports ~ |Registrar Office ~ |8:00am - 5:00pm </p>
+                </div>
+            </article>
+
+            <article class="month swiper-slide">
+                <div class="avatar">
+                    <img src="./image/month7.jpg" alt="">
+                </div>
+                <div class="month__info">
+                    <h5>July</h5>
+                    <small>Month</small>
+                </div>
+                <div class="month__body">
+                    <p><i class="fa-regular fa-calendar-check"></i>  [06]  |ISIM: Mercy Corps Virtual - Climate Change ~ |Online ~ |8:00am - 9:00am </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [07]  |Birthday Celebretion: Jethro G, PhD ~ |Georgetown Center ~ |8:00am - 5:00pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [19]  |Lessons Learned: Drug Policy ~ |Law Center ~ |10:00am - 12:00pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [30]  |Building A Healthy Culture Workshop ~ |Zoom ~ |11:00am - 12:00pm </p>
+                </div>
+            </article>
+
+            <article class="month swiper-slide">
+                <div class="avatar">
+                    <img src="./image/month8.jpg" alt="">
+                </div>
+                <div class="month__info">
+                    <h5>August</h5>
+                    <small>Month</small>
+                </div>
+                <div class="month__body">
+                    <p><i class="fa-regular fa-calendar-check"></i>  [08]  |Canvas, Part IV: Communication ~ |Memorial Library ~ |11:00am - 12:00pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [12]  |PhD Dissertation Defense: Yaguang Liu ~ |326 Mary's Hall ~ |9:00am - 1:00pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [21]  |Doctoral Project Defence: Joycelyne Bataille ~ |Online ~ |9:00am - 10:00am </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [29]  |Dissertation Defence: Tianming Wu ~ |Conference Room ~ |1:00pm - 3:00pm </p>
+                </div>
+            </article>
+
+            <article class="month swiper-slide">
+                <div class="avatar">
+                    <img src="./image/month9.jpg" alt="">
+                </div>
+                <div class="month__info">
+                    <h5>September</h5>
+                    <small>Month</small>
+                </div>
+                <div class="month__body">
+                    <p><i class="fa-regular fa-calendar-check"></i>  [01]  |Dissertation Defense: Junyi Zhang |Research Building ~ |8:00am - 9:00am </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [04]  |Global Perspective: Neglected Diseases ~ |Online ~ |11:00am - 12:30pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [11]  |ECo Talks: Allen Collins, Zoologist ~ |Arrupe Hall ~ |11:00am - 2:00pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [23]  |PhD Dissertation: Shabnam Bezhad ~ |414 Mary's Hall ~ |8:00am - 9:00am </p>
+                </div>
+            </article>
+
+            <article class="month swiper-slide">
+                <div class="avatar">
+                    <img src="./image/month10.jpg" alt="">
+                </div>
+                <div class="month__info">
+                    <h5>October</h5>
+                    <small>Month</small>
+                </div>
+                <div class="month__body">
+                    <p><i class="fa-regular fa-calendar-check"></i>  [03]  |IBC45: Intensive Bioethics June 3-5 ~ |Healy Hall ~ |9:00am - 5:00pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [04]  |IBC45: Intensive Bioethics June 3-5 ~ |Healy Hall ~ |9:00am - 5:00pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [05]  |IBC45: Intensive Bioethics June 3-5 ~ |Healy Hall ~ |9:00am - 5:00pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [23]  |Undergraduate Grades and Reports ~ |Registrar Office ~ |8:00am - 5:00pm </p>
+                </div>
+            </article>
+
+            <article class="month swiper-slide">
+                <div class="avatar">
+                    <img src="./image/month11.jpg" alt="">
+                </div>
+                <div class="month__info">
+                    <h5>November</h5>
+                    <small>Month</small>
+                </div>
+                <div class="month__body">
+                    <p><i class="fa-regular fa-calendar-check"></i>  [07]  |Yoga in The Garden ~ |Regent's Hall ~ |10:00am - 11:00am </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [10]  |The Crisis of Autocracy: Moncef Marzouki ~ |Online ~ |12:00pm - 1:30pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [15]  |The Future of Global Business ~ |Auditorium ~ |2:00pm - 7:00pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [19]  |Navigating the ESG Lecture ~ |McGhee Library ~ |9:00am - 1:00pm </p>
+                </div>
+            </article>
+
+            <article class="month swiper-slide">
+                <div class="avatar">
+                    <img src="./image/month12.jpg" alt="">
+                </div>
+                <div class="month__info">
+                    <h5>December</h5>
+                    <small>Month</small>
+                </div>
+                <div class="month__body">
+                    <p><i class="fa-regular fa-calendar-check"></i>  [09]  |Kalaris Interlligence Conference ~ |Gaston Hall ~ |9:00am - 6:00pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [11]  |H-15 & Post-Graduation Visa Alternatives ~ |Zoom ~ |11:00am - 12:00pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [15]  |Medical Debt Event ~ |Hariri Building ~ |12:00pm - 2:00pm </p>
+                    <p><i class="fa-regular fa-calendar-check"></i>  [19]  |Christmas Party ~ |Student Center ~ |9:00am - 4:00pm </p>
+                </div>
+            </article>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+    <!-- END OF MONTH EVENT -->
+
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="index.html" class="footer__logo"><img src="./image/ama.png" style="width: 190px; height: 90px;"><p>AMA EDUCATION SYSTEM</p></a>
+                <p>A member of AMA Education System! ACLC Malolos now offers full online education, earn your degree online -anywhere you are in the world.</p>
+            </div>
+
+            <div class="footer__2">
+                <h4>Site Links</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__3">
+                <h4>Links</h4>
+                <ul class="privacy">
+                    <li><a href="https://www.amaes.edu.ph/amaes-privacy-policy/">Privacy Policy</a></li>
+                    <li><a href="https://www.amaes.edu.ph/careers/">Careers</a></li>
+                    <li><a href="https://amafranchise.amaes.edu.ph/">Investors</a></li>
+                    <li><a href="https://www.youtube.com/channel/UC34PohtqOjRziDt-TiF6Pkw">AMAES T.V</a></li>
+                    <li><a href="https://news.amaes.edu.ph/">AMA News</a></li>
+                    <li><a href="https://www.amaes.edu.ph/">AMA Education System</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p><i class="fa-solid fa-phone"></i>  | +69 917 542 6205</p>
+                    <p><i class="fa-solid fa-envelope-open-text"></i> | amaclc1995@yahoo.com</p>
+                </div>
+
+                <ul class="footer__socials">
+                    <li><a href="https://www.facebook.com/ACLCMalolosOfficial"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.instagram.com/aclc.malolos/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/aclcmalolos"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/school/aclc-college/"><i class="fa-brands fa-linkedin-in"></i></li>
+                </ul>
+            </div>  
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; ACLC Malolos</small>
+        </div>
+    </footer>
+    <!-- END OF FOOTER -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        // when window width is >= 600px
+        breakpoints: {
+            600: {
+                slidesPerView: 2
+            }
+        }
+      });
+    </script>
+
+</body>
+</html>
