@@ -1,5 +1,5 @@
 # Project-01
-Responsive Multipage Education/University Website using HTML CSS & JavaScript
+Responsive Multipage Education/University Website using (HTML, CSS, & JavaScript)
 
 - NOTE FOR MY SELF:
 
