@@ -488,7 +488,7 @@ footer ul li a:hover {
 
    /* -- HEADER -- */
     header {
-    height: 52vh;
+    height: 60vh;
     margin-bottom: 4rem;
    }
 
@@ -536,10 +536,11 @@ footer ul li a:hover {
    .event__container p {
     width: 100%;
     margin-top: 2rem;
+    text-align: center;
    }
    .swiper-wrapper {
     margin-top: 3rem;
-    height: 20rem
+    height: 25rem
    }
 
    /*  -- FOOTER -- */
@@ -616,6 +617,7 @@ footer ul li a:hover {
     /* -- EVENT -- */
     #event {
         margin-top: 1rem;
+        text-align: center;
     }
     .swiper-wrapper {
         margin-top: 3rem;
