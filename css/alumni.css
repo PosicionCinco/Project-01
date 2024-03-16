@@ -64,6 +64,9 @@ header {
 }
 
 .header__tag {
+    color: var(--color-danger);
+}
+.header__tag:hover {
     color: var(--color-primary);
 }
 .header__right1 p {
