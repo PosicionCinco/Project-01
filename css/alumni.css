@@ -138,7 +138,7 @@ header {
     height: 10rem;
     display: flex;
     justify-content: center;
-    animation: spinText 60s linear;
+    animation: spinText 60s linear infinite;
 }
 .contact__btn p span {
     position: absolute;
