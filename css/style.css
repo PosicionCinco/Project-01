@@ -167,12 +167,13 @@ header {
     top: 5rem;
     overflow: hidden;
     height: 70vh;
-    margin-bottom: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
 }
 
 .header__container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 40%;
     align-items: center;
     gap: 5rem;
     height: 100%;
@@ -507,13 +508,8 @@ footer ul li a:hover {
 
    /* -- HEADER -- */
     header {
-    height: 60vh;
+    height: 45vh;
     margin-bottom: 4rem;
-   }
-
-   .header__container {
-    gap: 0;
-    padding-bottom: 3rem;
    }
 
    /* -- CATEGORIES -- */
@@ -599,7 +595,7 @@ footer ul li a:hover {
 
     /* -- HEADER -- */
     header {
-        height: 100vh;
+        height: 110vh;
     }
 
     .header__container {
