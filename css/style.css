@@ -28,7 +28,7 @@
     --transition: all 400ms ease;
 }
 
-/* -- SCROLLBAR -- */
+/*  ---  SCROLLBAR  ---  */
 ::-webkit-scrollbar {
     width: 0.5rem;
     background: rgb(229, 165, 93, 0.2);
@@ -38,27 +38,22 @@
     background: var(--color-danger);
     border-radius: 0.25rem;
 }
-
 html {
     scroll-behavior: smooth;
 }
-
 body {
     font-family: "Montserrat", sans-serif;
     line-height: 1.7;
     color: var(--color-white);
     background: var(--color-bg);
 }
-
 .container {
     width: var(--container-width-lg);
     margin: 0 auto;
 }
-
 section {
     padding: 6rem 0;
 }
-
 section h2 {
     text-align: center;
     margin-bottom: 4rem;
@@ -91,13 +86,11 @@ h4 {
 a {
     color: var(--color-white);
 }
-
 img {
     width: 100%;
     display: block;
     object-fit: cover;
 }
-
 .btn {
     display: inline-block;
     background: var(--color-white);
@@ -107,19 +100,17 @@ img {
     font-weight: 500;
     transition: var(--transition);
 }
-
 .btn:hover {
     background: transparent;
     color: var(--color-white);
     border-color: var(--color-white);
 }
-
 .btn-primary {
     background: var(--color-danger);
     color: var(--color-white)
 }
 
-/* -- NAVBAR -- */
+/*  ---  NAVBAR  ---  */
 nav {
     background: transparent;
     width: 100vw;
@@ -129,176 +120,147 @@ nav {
     z-index: 11;
 }
 
-/* -- CHANGE NAVBAR STYLE ON SCROLL USING JAVASCRIPT -- */
+/*  ---  CHANGE NAVBAR STYLE ON SCROLL USING JAVASCRIPT  ---  */
 .window-scroll {
     background: rgba(46, 50, 103, 0.8);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
-
 .nav__container {
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 nav button {
     display: none;
 }
-
 .nav__menu {
     display: flex;
     align-items: center;
     gap: 4rem;
 }
-
 .nav__menu a {
     font-size: 0.9rem;
     transition: var(--transition);
 }
-
 .nav__menu a:hover {
     color: var(--color-bg2);
 }
 
-/* -- HEADER -- */
+/*  ---  HEADER  ---  */
 header {
     position: relative;
     top: 5rem;
     overflow: hidden;
-    height: 70vh;
-    margin-top: 2rem;
-    margin-bottom: 8rem;
+    height: 80vh;
+    margin-bottom: 5rem;
 }
-
 .header__container {
     display: grid;
-    grid-template-columns: 50% 40%;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 5rem;
     height: 100%;
 }
-
 .header__left p {
     margin: 1rem 0 2.4rem;
 }
 
-/* -- CATEGORIES -- */
+/*  ---  CATEGORIES  ---  */
 .categories {
     background: var(--color-bg1);
     height: 32rem;
 }
-
 .categories h1 {
     line-height: 1;
     margin-bottom: 3rem;
 }
-
 .categories__container {
     display: grid;
     grid-template-columns: 40% 60%;
 }
-
 .categories__left {
     margin-right: 4rem;
 }
-
 .categories__left p {
     margin: 1rem 0 3rem;
 }
-
 .categories__right {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.2rem;
 }
-
 .category {
     background: var(--color-bg2);
     padding: 2rem;
     border-radius: 2rem;
     transition: var(--transition);
 }
-
 .category:hover {
     box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
     z-index: 1;
 }
-
 .category:nth-child(2) .category__icon {
     background: var(--color-danger);
 }
-
 .category:nth-child(3) .category__icon {
     background: var(--color-success);
 }
-
 .category:nth-child(4) .category__icon {
     background: var(--color-warning);
 }
-
 .category:nth-child(5) .category__icon {
     background: var(--color-success);
 }
-
 .category__icon {
     background: var(--color-primary);
     padding: 0.7rem;
     border-radius: 0.9rem;
 }
-
 .category h5 {
     margin: 2rem 0 1rem;
 }
-
 .category p {
     font-size: 0.85rem;
 }
 
-/* -- POPULAR CORSES -- */
+/*  ---  POPULAR COURSES  ---  */
 .courses {
     margin-top: 10rem;
 }
-
 .courses__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
-
 .course {
     background: var(--color-bg1);
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
 }
-
 .course:hover {
     background: transparent;
     border-color: var(--color-primary);
 }
-
 .course__info {
     padding: 2rem;
 }
-
 .course__info p {
     margin: 1.2rem 0 2rem;
     font-size: 0.9rem;
 }
 
-/* -- FAQ -- */
+/*  ---  FREQUENTLY ASK QUESTIONS  ---  */
 .faqs {
     background: var(--color-bg1);
     box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
 }
-
 .faqs__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
-
 .faq {
     padding: 2rem;
     display: flex;
@@ -308,27 +270,23 @@ header {
     background: var(--color-primary);
     cursor: pointer;
 }
-
 .faq h4 {
     font-size: 1rem;
     line-height: 2.2;
 }
-
 .faq__icon {
     align-self: flex-start;
     font-size: 1.2rem;
 }
-
 .faq p {
     margin: 0.8rem;
     display: none;
 }
-
 .faq.open p {
     display: block;
 }
 
-/* -- EVENT -- */
+/*  ---  EVENTS & ANNOUNCEMENTS  ---  */
 #event {
     margin-top: 1rem;
 }
@@ -368,42 +326,35 @@ header {
     background: var(--color-primary);
 }
 
-/* -- FOOTER -- */
+/*  ---  FOOTER  ---  */
 footer {
     background: var(--color-bg1);
     padding-top: 5rem;
     font-size: 0.9rem;
 }
-
 .footer__container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5rem;
 }
-
 .footer__container > div h4 {
     margin-bottom: 1.2rem;
 }
-
 .footer__1 p {
     margin: 0 0 2rem;
 }
-
 footer ul li {
     margin-bottom: 0.7rem;
 }
-
 footer ul li a:hover {
     text-decoration: underline;
 }
-
 .footer__socials {
     display: flex;
     gap: 1rem;
     font-size: 1.2rem;
     margin-top: 2rem;
 }
-
 .footer__copyright {
     text-align: center;
     margin-top: 4rem;
@@ -411,7 +362,7 @@ footer ul li a:hover {
     border-top: 1px solid var(--color-bg2);
 }
 
-/* -- MEDIA QUERIES (TABLETS) -- */
+/*  ---  MEDIA QUERIES (TABLETS)  ---  */
 @media screen and (max-width: 1024px) {
    .container {
     width: var(--container-width-md);
@@ -420,20 +371,17 @@ footer ul li a:hover {
    h1 {
     font-size: 2.2rem;
    }
-
    h2 {
     font-size: 1.7rem;
    }
-
    h3 {
     font-size: 1.4rem;
    }
-
    h4 {
     font-size: 1.2rem;
    }
 
-   /* -- NAVBAR -- */
+   /*  ---  NAVBAR  ---  */
    nav button {
     display: inline-block;
     background: transparent;
@@ -441,11 +389,9 @@ footer ul li a:hover {
     color: var(--color-white);
     cursor: pointer;
    }
-
    nav button#close-menu-btn {
     display: none;
    }
-
    .nav__menu {
     position: fixed;
     top: 5rem;
@@ -456,7 +402,6 @@ footer ul li a:hover {
     gap: 0;
     display: none;
    }
-
    .nav__menu li {
     width: 100%;
     height: 5.8rem;
@@ -464,19 +409,15 @@ footer ul li a:hover {
     transform-origin: top right;
     opacity: 0;
    }
-
    .nav__menu li:nth-child(2) {
     animation-delay: 200ms;
    }
-
    .nav__menu li:nth-child(3) {
     animation-delay: 400ms;
    }
-
    .nav__menu li:nth-child(4) {
     animation-delay: 600ms;
    }
-
    .nav__menu li:nth-child(5) {
     animation-delay: 800ms;
    }
@@ -500,51 +441,46 @@ footer ul li a:hover {
     display: grid;
     place-items: center;
    }
-
    .nav__menu li a:hover {
     background: var(--color-bg2);
     color: var(--color-white);
    }
 
-   /* -- HEADER -- */
+   /*  ---  HEADER  ---  */
     header {
-    height: 45vh;
+    height: 65vh;
     margin-bottom: 4rem;
    }
 
-   /* -- CATEGORIES -- */
+   /*  ---  CATEGORIES  ---  */
    .categories {
     height: auto;
    }
-
    .categories__container {
     grid-template-columns: 1fr;
     gap: 3rem;
    }
-
    .categories__left {
     margin-right: 0;
    }
 
-   /* -- POPULAR COURSES -- */
+   /*  ---  POPULAR COURSES  ---  */
    .courses {
     margin-top: 0;
    }
-
    .courses__container {
     grid-template-columns: 1fr 1fr;
    }
 
-   /* -- FAQ -- */
+   /*  ---  FREQUENTLY ASK QUESTIONS  ---  */
    .faqs__container {
     grid-template-columns: 1fr;
    }
-
    .faq {
     padding: 1.5rem;
    }
 
-   /* -- EVENT -- */
+   /*  ---  EVENTS & ANNOUNCEMENTS  ---  */
    #event {
     margin-top: 1rem;
    }
@@ -558,21 +494,18 @@ footer ul li a:hover {
     height: 25rem
    }
 
-   /*  -- FOOTER -- */
+   /*   ---  FOOTER  ---  */
    .footer__container {
     grid-template-columns: 1fr 1fr;
     text-align: center;
     gap: 2rem;
    }
-
    .footer__1 p {
     margin: 1rem auto;
    }
-
    .footer__socials {
     justify-content: center;
    }
-
    .footer__logo {
     display: block;
     margin-left: auto;
@@ -581,55 +514,53 @@ footer ul li a:hover {
    }
 }
 
-/* -- MEDIA QUARIES (PHONE) -- */
-
+/*  ---  MEDIA QUARIES (PHONE)  ---  */
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
     }
 
-    /* -- NAVBAR -- */
+    /*  ---  NAVBAR  ---  */
     .nav__menu {
         right: 3%;
     }
 
-    /* -- HEADER -- */
+    /*  ---  HEADER  ---  */
     header {
-        height: 110vh;
+        height: 80vh;
     }
-
     .header__container {
         grid-template-columns: 1fr;
         text-align: center;
         margin-top: 0;
     }
-
     .header__left p {
         margin-bottom: 1.3rem;
     }
-
-    /* -- CATEGORIES -- */
-    .categories__right {
-        grid-template-columns: 1fr 1fr;
-        gap: 0.7ren;
+    .header__right-image {
+        display: none;
     }
 
+    /*  ---  CATEGORIES  ---  */
+    .categories__right {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
     .category {
         padding: 1rem;
         border-radius: 1rem;
     }
-
     .category__icon {
         margin-top: 4px;
         display: inline-block;
     }
 
-    /* -- POPULAR COURSES -- */
+    /*  ---  POPULAR COURSES  ---  */
     .courses__container {
         grid-template-columns: 1fr;
     }
 
-    /* -- EVENT -- */
+    /*  ---  EVENTS & ANNOUNCEMENTS  ---  */
     #event {
         margin-top: 1rem;
         text-align: center;
@@ -639,21 +570,18 @@ footer ul li a:hover {
         height: 28rem;
     }
 
-    /* -- FOOTER -- */
+    /*  ---  FOOTER  ---  */
     .footer__container {
         grid-template-columns: 1fr;
         text-align: center;
         gap: 2rem;
     }
-
     .footer__1 p {
         margin: 1rem auto;
     }
-
     .footer__socials {
         justify-content: center;
     }
-
     .footer__logo {
         display: block;
         margin-left: auto;

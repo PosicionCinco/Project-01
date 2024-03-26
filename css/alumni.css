@@ -1,4 +1,4 @@
-/* -- HEADER -- */
+/*  ---  HEADER  ---  */
 header {
     max-width: 100vw;
     height: 100vh;
@@ -52,7 +52,7 @@ header {
     align-items: flex-start;
 }
 
-/* -- GENERAL EMPTY STYLES -- */
+/*  ---  GENERAL EMPTY STYLES  ---  */
 .empty {
     height: 3.5rem;
     width: 18rem;
@@ -62,7 +62,6 @@ header {
     box-shadow: inset 0 1rem 1rem rgba(0, 0, 0, 0.3);
     border: 1px solid var(--color-bg1);
 }
-
 .header__tag {
     color: var(--color-danger);
 }
@@ -74,7 +73,7 @@ header {
     width: 85%;
 }
 
-/* -- ONLY SHOWS ON TABLETS AND PHONES -- */
+/*  ---  ONLY SHOWS ON TABLETS AND PHONES  ---  */
 .header__btn-md {
     display: none;
 }
@@ -106,7 +105,7 @@ header {
     left: 15rem;
 }
 
-/* -- GENERAL STYLE FOR CONTACT BUTTONS -- */
+/*  ---  GENERAL STYLE FOR CONTACT BUTTONS  ---  */
 .contact__btn {
     color: var(--color-primary);
     width: 10rem;
@@ -151,7 +150,7 @@ header {
     }
 }
 
-/* -- ABOUT -- */
+/*  ---  ABOUT  ---  */
 #about {
     margin-top: 10rem;
 }
@@ -215,7 +214,7 @@ header {
     margin: 0 4rem 1.5rem 0rem;
 }
 
-/* -- MEDIA QUERIES (MEDIUM SCREENS) -- */
+/*  ---  MEDIA QUERIES (TABLETS)  ---  */
 @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
@@ -229,7 +228,7 @@ header {
         font-size: 2.5rem;
     }
 
-    /* -- HEADER -- */
+    /*  ---  HEADER  ---  */
     header {
         height: fit-content;
         padding: 14rem 0 12rem;
@@ -264,7 +263,7 @@ header {
         display: none;
     }
 
-    /* -- ABOUT -- */
+    /*  ---  ABOUT  ---  */
     .about__container {
         grid-template-columns: 40% 55%;
         gap: -1%;
@@ -291,7 +290,7 @@ header {
     }
 }
 
-/* -- MEDIA QUERIES (SMALL SCREENS) -- */
+/*  ---  MEDIA QUERIES (PHONES)  ---  */
 @media screen and (max-width: 600px) {
     h1, h2 {
         font-size: 2rem;
@@ -324,7 +323,7 @@ header {
         margin-top: 1rem;
     }
 
-    /* -- ABOUT -- */
+    /*  ---  ABOUT  ---  */
     .about__container {
         grid-template-columns: 1fr;
         gap: 2rem;
