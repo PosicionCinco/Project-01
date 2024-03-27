@@ -43,7 +43,7 @@
 .contact__socials a {
     background: var(--color-bg2);
     padding: 0.5rem;
-    border-radius: 10%;
+    border-radius: 20%;
     font-size: 0.9rem;
     transition: var(--transition);
 }
