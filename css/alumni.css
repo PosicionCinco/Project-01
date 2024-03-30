@@ -4,7 +4,7 @@ header {
     height: 100vh;
     position: relative;
     top: 0;
-    background: linear-gradient(var(--color-bg), var(--color-bg1));
+    background: var(--color-gray-100);
     overflow: hidden;
 }
 .header__container1 {
@@ -15,7 +15,7 @@ header {
     position: relative;
 }
 .header__image-bg {
-    background: var(--color-bg1);
+    background: var(--color-gray-200);
     height: 22rem;
     width: 16rem;
     position: absolute;
@@ -42,9 +42,13 @@ header {
 }
 .header__left1:hover .header__image-lg {
     filter: saturate(1) brightness(1);
-    border: 1rem solid var(--color-bg1);
+    border: 1rem solid var(--color-gray-200);
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.5);
     top: 0;
     left: 0;
+}
+.header__right1 h1 {
+    color: var(--color-bg2);
 }
 .header__head {
     display: flex;
@@ -56,17 +60,17 @@ header {
 .empty {
     height: 3.5rem;
     width: 18rem;
-    background: var(--color-bg);
+    background: var(--color-gray-200);
     border-radius: calc(3.5rem / 2);
     margin-bottom: 3.5rem;
     box-shadow: inset 0 1rem 1rem rgba(0, 0, 0, 0.3);
-    border: 1px solid var(--color-bg1);
+    border: 1px solid var(--color-gray-200);
 }
 .header__tag {
-    color: var(--color-danger);
+    color: var(--color-crimson);
 }
 .header__tag:hover {
-    color: var(--color-primary);
+    color: var(--color-bg2);
 }
 .header__right1 p {
     margin-top: 2rem;
@@ -85,7 +89,7 @@ header {
 }
 .header__frame {
     width: 14rem;
-    border: 0.4rem solid var(--color-bg2);
+    border: 0.4rem solid var(--color-gray-200);
     box-shadow: 0 0 4rem rgba(0, 0, 0, 0.5);
     position: absolute;
     transform: rotate(-10deg);
@@ -107,7 +111,7 @@ header {
 
 /*  ---  GENERAL STYLE FOR CONTACT BUTTONS  ---  */
 .contact__btn {
-    color: var(--color-primary);
+    color: var(--color-bg2);
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
@@ -117,14 +121,14 @@ header {
     transition: var(--transition);
 }
 .header__btn {
-    color: var(--color-danger);
+    color: var(--color-crimson);
     position: absolute;
     right: 6%;
     bottom: -3rem;
 }
 .header__btn:hover {
     transform: translateY(-1rem);
-    color: var(--color-primary);
+    color: var(--color-bg2);
 }
 .contact__btn i {
     font-size: 3.5rem;
@@ -162,12 +166,12 @@ header {
     position: relative;
 }
 .about__btn {
-    color: var(--color-danger);
+    color: var(--color-crimson);
     align-self: end;
 }
 .about__btn:hover {
     transform: translateY(-1rem);
-    color: var(--color-primary);
+    color: var(--color-bg2);
 }
 .about__image {
     position: relative;
@@ -177,7 +181,7 @@ header {
     height: 24rem;
     position: absolute;
     bottom: 0;
-    background: var(--color-bg1);
+    background: var(--color-grey-200);
 }
 .about__image-lg {
     position: relative;
@@ -201,8 +205,8 @@ header {
 }
 .about__image:hover .about__image-lg {
     filter: saturate(1) brightness(1);
-    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.2);
-    border: 1rem solid var(--color-bg1);
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.5);
+    border: 1rem solid var(--color-gray-200);
     left: 0rem;
     bottom: 0rem;
 }
@@ -245,7 +249,7 @@ header {
     }
     .header__image-lg {
         filter: saturate(1) brightness(1);
-        border: 1rem solid var(--color-primary);
+        border: 1rem solid var(--color-gray-200);
         width: 100%;
         top: 0;
         left: 0;
@@ -274,7 +278,7 @@ header {
         display: none;
     }
     .about__image-lg {
-        border: 1rem solid var(--color-bg2);
+        border: 1rem solid var(--color-gray-200);
         left: 0;
         top: 0;
         filter:  saturate(1) brightness(1);

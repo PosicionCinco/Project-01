@@ -1,5 +1,5 @@
 .contact__container {
-    background: var(--color-bg1);
+    background: var(--color-gray-100);
     padding: 4rem;
     display: grid;
     grid-template-columns: 40% 60%;
@@ -11,11 +11,16 @@
 
 /*  ---  ASIDE  ---  */
 .contact__aside {
-    background: var(--color-primary);
+    background: var(--color-gray-200);
     padding: 3rem;
     border-radius: 1rem;
     position: relative;
     bottom: 10rem;
+}
+.contact__aside:hover {
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.2);
+    transition: var(--transition);
+    z-index: 1;
 }
 .aside__image {
     width: 12rem;
@@ -24,6 +29,7 @@
 .contact__aside h2 {
     text-align: left;
     margin-bottom: 4rem;
+    color: var(--color-bg2);
 }
 .contact__aside p {
     font-size: 0.9rem;
@@ -34,6 +40,7 @@
     gap: 1rem;
     align-items: center;
     margin-bottom: 1rem;
+    color: var(--color-bg2);
 }
 .contact__socials {
     display: flex;
@@ -41,13 +48,14 @@
     margin-top: 3rem;
 }
 .contact__socials a {
-    background: var(--color-bg2);
+    background: var(--color-gray-200);
     padding: 0.5rem;
-    border-radius: 20%;
-    font-size: 0.9rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
     transition: var(--transition);
 }
 .contact__socials a:hover {
+    color: var(--color-crimson);
     background:  transparent;
 }
 
@@ -65,11 +73,26 @@
 .contact__form input[type="text"] {
     width: 50%;
 }
+.contact__form input[type="text"]:hover {
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.2);
+    transition: var(--transition);
+    z-index: 1;
+}
+.contact__form input[type="email"]:hover {
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.2);
+    transition: var(--transition);
+    z-index: 1;
+}
 input, textarea {
     width: 100%;
     padding: 1rem;
-    background: var(--color-bg);
-    color: var(--color-white);
+    background: var(--color-gray-200);
+    color: var(--color-gray-900);
+}
+textarea:hover {
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.2);
+    transition: var(--transition);
+    z-index: 1;
 }
 .contact__form .btn {
     width: max-content;
