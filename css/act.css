@@ -29,6 +29,7 @@
 .categories-act h1 {
     line-height: 1;
     margin-bottom: 3rem;
+    color: var(--color-bg2);
 }
 .categories__container-act {
     display: grid;
