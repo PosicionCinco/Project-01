@@ -107,9 +107,6 @@
     transition: var(--transition);
     object-fit: fill;
 }
-.bsias__right-image:hover {
-    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.5);
-}
 .bsias__left h1 {
     color: var(--color-bg2);
 }

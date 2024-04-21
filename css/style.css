@@ -375,7 +375,7 @@ header {
     filter: saturate(1);
 }
 .swiper-pagination-bullet {
-    background: var(--color-gray-900);
+    background: var(--color-bg2);
 }
 
 /*  ---  FOOTER  ---  */
