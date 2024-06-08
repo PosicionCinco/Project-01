@@ -1,4 +1,5 @@
 /*  ---  HEADER  ---  */
+
 .header-act {
     position: relative;
     top: 5rem;
@@ -7,6 +8,7 @@
     margin-top: 2rem;
     margin-bottom: 8rem;
 }
+
 .header__container-act {
     display: grid;
     grid-template-columns: 50% 40%;
@@ -14,75 +16,95 @@
     gap: 5rem;
     height: 100%;
 }
+
 .header__left-act h1 {
     color: var(--color-bg2);
 }
+
 .header__left-act p {
     margin: 1rem 0 2.4rem;
 }
 
+
 /*  ---  ACT CATEGORIES  ---  */
+
 .categories-act {
     background: var(--color-gray-200);
     height: 32rem;
 }
+
 .categories-act h1 {
     line-height: 1;
     margin-bottom: 3rem;
     color: var(--color-bg2);
 }
+
 .categories__container-act {
     display: grid;
     grid-template-columns: 40% 60%;
 }
+
 .categories__left-act {
     margin-right: 4rem;
 }
+
 .categories__left-act p {
     margin: 1rem 0 3rem;
 }
+
 .categories__right-act {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.2rem;
 }
+
 .category-act {
     background: var(--color-bg2);
     padding: 2rem;
     border-radius: 2rem;
     transition: var(--transition);
 }
+
 .category-act:hover {
     box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
+
 .category-act:nth-child(2) .category__icon-act {
     background: var(--color-danger);
 }
+
 .category-act:nth-child(3) .category__icon-act {
     background: var(--color-success);
 }
+
 .category-act:nth-child(4) .category__icon-act {
     background: var(--color-warning);
 }
+
 .category-act:nth-child(5) .category__icon-act {
     background: var(--color-success);
 }
+
 .category__icon-act {
     background: var(--color-primary);
     padding: 0.7rem;
     border-radius: 0.9rem;
 }
+
 .category-act h5 {
     margin: 2rem 0 1rem;
     color: var(--color-gray-100);
 }
+
 .category-act p {
     font-size: 0.85rem;
     color: var(--color-gray-100);
 }
 
+
 /*  ---  SECTION  ---  */
+
 .act {
     position: relative;
     top: 5rem;
@@ -91,6 +113,7 @@
     margin-top: 2rem;
     margin-bottom: 8rem;
 }
+
 .act__container {
     display: grid;
     grid-template-columns: 60% 29%;
@@ -98,6 +121,7 @@
     gap: 5rem;
     height: 100%;
 }
+
 .act__right-image {
     border: 0.5rem solid var(--color-gray-200);
     height: fit-content;
@@ -105,92 +129,120 @@
     transition: var(--transition);
     object-fit: fill;
 }
+
 .act__left h1 {
     color: var(--color-bg2);
 }
+
 .act__left p {
     margin: 1rem 0 2.4rem;
 }
 
+
 /*  ---  MEDIA QUERIES (TABLETS)  ---  */
+
 @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
     }
 
+
     /*  ---  HEADER  ---  */
+
     .header__act {
         height: 70vh;
         margin-bottom: 2rem;
     }
 
+
     /*  ---  CATEGORIES  ---  */
+
     .categories-act {
         height: auto;
     }
+
     .categories__container-act {
         grid-template-columns: 1fr;
         gap: 3rem;
     }
+
     .categories__left-act {
         margin-right: 0;
     }
 
+
     /*  ---  ACT  ---  */
+
     .act {
         height: 70vh;
         margin-bottom: 2rem;
     }
 }
 
+
 /*  ---  MEDIA QUERIES (PHONES)  ---  */
+
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
     }
 
+
     /*  ---  HEADER  ---  */
+
     .header__act {
         height: 110vh;
     }
+
     .header__container-act {
         grid-template-columns: 1fr;
         text-align: center;
         margin-top: 0;
     }
+
     .header__left-act p {
         margin-top: 1.3rem;
     }
+
     .header__right-act {
         display: none;
     }
 
+
     /*  ---  CATEGORIES  ---  */
+
     .category-act {
         padding: 1rem;
         border-radius: 1rem;
     }
+
     .categories__right-act {
         grid-template-columns: 1fr 1fr;
         gap: 0.7rem;
     }
+
     .category__icon-act {
         margin-top: 4px;
         display: inline-block;
     }
 
+
     /*  ---  SECTION  ---  */
+
     .act {
         height: 90vh;
     }
+
     .act__container {
         grid-template-columns: 1fr;
         text-align: center;
         margin-top: 0;
     }
+
     .act__left p {
         margin-top: 1.3rem;
     }
+    
     .act__right-image {
         display: none;
     }
